@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navbar start -->
+
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container mx-auto px-28 py-6">
+            <div class="flex items-center justify-between relative ">
+                <button id="hamberger" name="hamberger" class="block  right-4 lg:hidden ">
+                    <span class="humberger transition duration-300 ease-in-out origin-bottom-left"></span>
+                    <span class="humberger transition duration-300 ease-in-out"></span>
+                    <span class="humberger transition duration-300 ease-in-out origin-bottom-left"></span>
+                </button>
+                <div class="px-4">
+                    <a href="" class="block sm:pl-[80px] md:pl-[115px] lg:pl-6 ">Logo.</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <nav id="nav-menu" class="hidden absolute py-5 shadow-lg rounded-lg max-w-[250px] w-full right-[0px] md:right-[300px] sm:right-[200px]
+                        top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex font-poppins text-[20px] font-normal">
+                            <li class="group ">
+                                <a href="home.html"
+                                    class="focus:text-pink-gelap focus:font-semibold active:font-semibold text-pink py-2 mx-8 flex group-hover:text-pink-gelap">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="explore.html"
+                                    class="focus:text-pink-gelap focus:font-semibold active:font-semibold text-pink py-2 mx-8 flex group-hover:text-pink-gelap">Explore</a>
+                            </li>
+                            <li class="group">
+                                <a href="about_us.html"
+                                    class="focus:text-pink-gelap focus:font-semibold active:font-semibold text-pink py-2 mx-8 flex group-hover:text-pink-gelap">About
+                                    Us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <button
+                    class="px-5 py-3 text-pink border-solid border-2 border-pink rounded-lg font-poppins font-semibold"><a href="login.html">Login</a></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- navabr end -->
+
+    <!-- Chekout Start -->
+
+    <section class="container pt-[200px]" id="home">
+        <div>
+            <h1 class="text-center font-poppins font-semibold text-pink text-[40px]">Complete Your Purchase <br>
+                with Ease</h1>
+        </div>
+        <div class="bg-white drop-shadow-2xl rounded-xl mt-[100px] px-[25px] py-[25px] w-[1111px] h-[734px]">
+            <div class="grid gap-2 grid-cols-2 rounded-lg">
+                <div class="">
+                    <img src="/src/img/img_chekout.png" alt="img">
+                </div>
+                <div class="relative">
+                    <div class="">
+                        <h1 class="font-poppins font-semibold text-[24px]">Frozen Art Blue - Tema Adat</h1>
+                        <p
+                            class="absolute mt-[10px] font-roboto font-normal text-[12px] text-white bg-pink px-[10px] py-[5px] rounded-full">
+                            Wedding Luxury</p>
+                    </div>
+                    <div class="pt-[50px]">
+                        <h1 class="font-poppins font-semibold text-[18px]">Description</h1>
+                        <p class="pt-[10px] text-justify font-poppins font-normal tetx-[14px] text-abu">Lorem Ipsum is
+                            simply
+                            dummy
+                            text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                            dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                            it
+                            to make a type specimen book. It has survived not only five centuries, but also the leap
+                            into
+                            electronic typese</p>
+                    </div>
+                    <div class="text-center pt-[15px]">
+                        <h1 class="font-poppins font-semibold text-[24px]">Total Amount <br> <span
+                                class="font-poppins font-semibold text-[30px] text-pink">Rp 80.000,00</span>
+                        </h1>
+                    </div>
+                    <div class="border-t border-b mt-[15px]">
+                        <h1 class="pt-[25px] font-poppins font-semibold text-[24px] text-abu">Order Summary</h1>
+                        <div class="pt-[20px] pb-[20px]">
+                            <div class="justify-between flex">
+                                <p class="font-poppins font-semibold text-[16px]">Frozen Art Blue - Tema Adat</p>
+                                <p class="font-poppins font-semibold text-[16px]">Rp 100.000,00</p>
+                            </div>
+                            <div class="pt-3 justify-between flex">
+                                <p class="font-poppins font-normal text-[16px]">Discount</p>
+                                <p class="font-poppins font-normal text-[16px]">( Rp 20.000,00 )</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-[20px]">
+                        <div class="flex justify-between">
+                            <h1 class="font-poppins font-semibold text-[18px]">Total</h1>
+                            <p class="font-poppins font-semibold text-[18px] text-pink">Rp 80.000,00</p>
+                        </div>
+                        <div class=" flex justify-center">
+                            <button class="pt-[20px]">
+                                <a href="login.html" class="font-poppins font-medium text-[18px] text-white rounded-xl bg-pink px-60 py-[14px] flex justify-center">Login</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chehout End -->
+
+    <!-- Start Footer -->
+
+    <footer class="container mt-[100px]  pt-[100px] mb-12 border-t">
+        <div class="flex justify-between mb-14">
+            <div class="relative">
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">Logo</h1>
+                <h1 class="font-roboto font-normal text-[18px] text-abu">We kaboom your beauty holiday <br>
+                    instantly and memorale</h1>
+            </div>
+            <div class="relative">
+                <h1 class="pb-5 font-roboto font-medium text-[18px]">For Beginners</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">New Account</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">Payment</h1>
+            </div>
+            <div class="relative">
+                <h1 class="pb-5 font-roboto font-medium text-[18px]">Explore Us</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">About</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">Privacy Policy</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">Term & Conditions</h1>
+            </div>
+            <div class="relative">
+                <h1 class="pb-5 font-roboto font-medium text-[18px]">Getting Touch</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">support@invitation.id</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">021 - 1111 - 1998</h1>
+                <h1 class="pb-5 font-roboto font-normal text-[18px] text-abu">Invitation, Makassar</h1>
+            </div>
+        </div>
+        <div>
+            <h1 class="font-roboto font-normal text-[18px] text-abu text-center">Copyright 2022 • All right reversed •
+                Invitation</h1>
+        </div>
+    </footer>
+
+    <!-- End Footer -->
+
+    <script src="/public/script.js"></script>
+</body>
+
+</html>

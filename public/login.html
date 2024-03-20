@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section class="container mx-auto my-auto pt-[50px]">
+        <div class="bg-white drop-shadow-2xl rounded-xl px-[25px] py-[50px] w-[1310px] h-[650px]">
+            <div class="grid gap-2 grid-cols-2 rounded-lg">
+                <div>
+                    <img src="/src/img/img-login.png" alt="img_login">
+                </div>
+                <div class="mx-auto my-auto">
+                    <div class="text-center">
+                        <h1 class="font-poppins font-semibold text-[30px] text-pink">Login</h1>
+                        <p class="p-[5px] font-poppins font-normal text-[16px] text-abu">Please log in to access your
+                            online wedding invitation</p>
+                    </div>
+                    <form method="post" action="#" autocomplete="off" id="daftarForm">
+                        <div class="grid gap-2 grid-cols-1 pt-[30px]">
+                            <label for="nama">Username</label>
+                            <input type="text" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]" name="nama" required
+                                placeholder="Input Username">
+                        </div>
+                        <div class="grid gap-2 grid-cols-1 pt-[30px]">
+                            <label for="nama">Password</label>
+                            <input type="password" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]" name="nama" required
+                                placeholder="Input Password">
+                        </div>  
+                        <div class="pt-[50px] text-center">
+                            <button type="submit" name="submit"
+                                class="font-poppins font-medium text-[14px] text-white py-[10px] px-[200px] rounded-xl bg-pink">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/public/script.js"></script>
+</body>
+
+</html>
