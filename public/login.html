@@ -16,31 +16,42 @@
 <body>
 
     <section class="container mx-auto my-auto pt-[50px]">
-        <div class="bg-white drop-shadow-2xl rounded-xl px-[25px] py-[50px] w-[1310px] h-[650px]">
-            <div class="grid gap-2 grid-cols-2 rounded-lg">
-                <div>
-                    <img src="/src/img/img-login.png" alt="img_login">
+        <div class="bg-white drop-shadow-2xl rounded-xl px-[25px] py-[50px]">
+            <div class="grid gap-2 lg:grid-cols-2 grid-cols-1 rounded-lg">
+                <div class="relative bg-center bg-cover bg-[url('/src/img/img-login.png')] h-auto rounded-xl">
+                    <div class="relative bg-black/[.25] rounded-xl">
+                            <div class="pl-11 pt-10">
+                                <h1 class=" font-poppins font-semibold text-white md:text-2xl text-[18px] ">Welcome back to <br>
+                                    <span class="md:text-[30px] text-[24px] text-pink">WebIvitation</span>
+                                </h1>
+                            </div>
+                            <div class="pt-[300px] pb-12 pl-11">
+                                <h1 class=" font-poppins font-semibold text-white md:text-[18px] text-[12px] "><span class="text-pink ">“
+                                        Love Stories in</span> Every Design <br>
+                                    Invitations that Tell Your Tale “</h1>
+                            </div>
+                    </div>
                 </div>
-                <div class="mx-auto my-auto">
+                <div class="inline-block mx-auto my-auto">
                     <div class="text-center">
-                        <h1 class="font-poppins font-semibold text-[30px] text-pink">Login</h1>
-                        <p class="p-[5px] font-poppins font-normal text-[16px] text-abu">Please log in to access your
+                        <h1 class="font-poppins font-semibold md:text-[30px] text-[18px] text-pink">Login</h1>
+                        <p class="p-[5px] font-poppins font-normal md:text-[16px] text-[12px] text-abu">Please log in to access your
                             online wedding invitation</p>
                     </div>
                     <form method="post" action="#" autocomplete="off" id="daftarForm">
                         <div class="grid gap-2 grid-cols-1 pt-[30px]">
                             <label for="nama">Username</label>
-                            <input type="text" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]" name="nama" required
-                                placeholder="Input Username">
+                            <input type="text" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]"
+                                name="nama" required placeholder="Input Username">
                         </div>
                         <div class="grid gap-2 grid-cols-1 pt-[30px]">
                             <label for="nama">Password</label>
-                            <input type="password" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]" name="nama" required
-                                placeholder="Input Password">
-                        </div>  
-                        <div class="pt-[50px] text-center">
+                            <input type="password" class="border hover:border-pink py-[11px] rounded-xl pl-[16px]"
+                                name="nama" required placeholder="Input Password">
+                        </div>
+                        <div class="mt-12 text-center bg-pink rounded-xl">
                             <button type="submit" name="submit"
-                                class="font-poppins font-medium text-[14px] text-white py-[10px] px-[200px] rounded-xl bg-pink">Login</button>
+                                class="font-poppins font-medium text-[14px] text-white py-[10px]">Login</button>
                         </div>
                     </form>
                 </div>
